@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Neide Santos Beauty & Wellness</title>
+  <meta name="description" content="Centro de Estética Avanzado - Micropigmentación, diseño de cejas, masajes y más. Calle República Dominicana, 22. Las Palmas de Gran Canaria." />
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;line-height:1.4;color:#222;background:#fff}
+    header{background:linear-gradient(135deg,#ffeef2,#fff);padding:28px 16px;border-bottom:1px solid #f0d7de}
+    .container{max-width:1100px;margin:0 auto;padding:0 16px}
+    .brand{display:flex;gap:16px;align-items:center}
+    .logo{width:76px;height:76px;border-radius:12px;background:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;color:#b85c7b;box-shadow:0 6px 18px rgba(184,92,123,0.12)}
+    nav{margin-left:auto}
+    nav a{margin-left:14px;text-decoration:none;color:#6d3b4a;font-weight:600}
+    h1{font-size:28px;color:#4a2230;margin-top:18px}
+    p.lead{color:#5b3b44;margin-top:8px}
+    .grid{display:grid;gap:18px;margin:26px 0}
+    .services{grid-template-columns:repeat(3,1fr)}
+    .card{background:#fff;border-radius:12px;padding:18px;box-shadow:0 6px 18px rgba(34,34,34,0.06);border:1px solid #f2e6ea}
+    .card h3{margin-top:12px;font-size:18px;color:#4a2230}
+    .hero{display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin-top:20px}
+    .hero .left{flex:1;min-width:260px}
+    .hero .right{flex:1;min-width:260px}
+    .hero img{width:100%;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,0.08)}
+    .btn{display:inline-block;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:700}
+    .btn-primary{background:#b85c7b;color:#fff}
+    .btn-outline{border:2px solid #b85c7b;color:#b85c7b;background:transparent}
+    .btn-whatsapp{background:#25d366;color:#fff}
+    .btn-whatsapp:hover{background:#1da851}
+    footer{margin-top:32px;padding:20px 0;border-top:1px solid #eee;color:#6b4b54}
+    .contact{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+    .contact a{text-decoration:none;color:#6b4b54;font-weight:600}
+    @media (max-width:900px){
+      .services{grid-template-columns:repeat(2,1fr)}
+      .hero{flex-direction:column-reverse}
+    }
+    @media (max-width:520px){
+      .services{grid-template-columns:1fr}
+      .brand{flex-direction:column;align-items:flex-start}
+      nav{margin-left:0}
+    }
+    .muted{color:#7d5b62;font-size:14px}
+    .center{text-align:center}
+    .promo-box {background:#fff;border-radius:16px;box-shadow:0 2px 16px #b85c7b22;padding:1.2rem 1rem;margin-bottom:2rem;position:relative;border:1px solid #f0d7de;}
+    .promo-label {background:#b85c7b;color:#fff;font-weight:bold;display:inline-block;padding:0.4rem 1.1rem;border-radius:7px;font-size:1.07rem;margin-bottom:1rem;letter-spacing:1px;}
+    .promo-special {background:#c02c33;color:#fff;font-weight:bold;display:inline-block;padding:0.4rem 1.1rem;border-radius:7px;font-size:1.07rem;margin-bottom:1rem;letter-spacing:1px;}
+    .promo-text {font-size:1.12rem;margin-bottom:.9rem;color:#222;}
+    .promo-price {font-size:2rem;color:#b85c7b;font-weight:bold;}
+    .old-price {text-decoration:line-through;color:#b85c7b;font-size:1.15rem;margin-right:0.7rem;opacity:0.7;}
+    .promo-detail {font-size:1.08rem;margin:.8rem 0;color:#222;}
+    .promo-valid {color:#c02c33;font-weight:bold;font-size:1rem;margin-top:.4rem;margin-bottom:.5rem;}
+    .promo-2x1 {font-size:1.18rem;color:#b85c7b;font-weight:bold;margin-bottom:.6rem;}
+    .promo-red {color:#c02c33;font-weight:bold;}
+    .whatsapp-link {display:inline-block;background:#25d366;color:#fff;padding:0.7rem 1.5rem;border-radius:7px;font-weight:bold;font-size:1.12rem;text-decoration:none;transition:background 0.2s;margin-top:1.2rem;box-shadow:0 2px 10px #0002;text-align:center;}
+    .whatsapp-link:hover {background:#1da851;}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="brand">
+        <div class="logo">NS</div>
+        <div>
+          <div style="font-weight:800;color:#4a2230">Neide Santos Beauty & Wellness</div>
+          <div class="muted">Centro de Estética • Micropigmentación & Brow Studio</div>
+        </div>
+        <nav>
+          <a href="#servicios">Servicios</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </div>
+      <div class="hero">
+        <div class="left">
+          <h1>Micropigmentación, diseño de cejas y estética profesional en Las Palmas</h1>
+          <p class="lead">Tratamientos personalizados, protocolos de higiene certificados y resultados naturales. Atención individual y cita previa.</p>
+          <p style="margin-top:12px">
+            <a class="btn btn-whatsapp" href="https://wa.me/0034679199582" target="_blank">Pide cita por WhatsApp</a>
+            <a class="btn btn-outline" href="#servicios">Ver servicios</a>
+          </p>
+        </div>
+        <div class="right">
+          <img src="Imagen de WhatsApp 2025-09-03 a las 12.48.23_39f2a854.jpg" alt="Centro de estética - Neide Santos">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="servicios" style="margin-top:18px">
+      <h2>Servicios destacados</h2>
+      <div class="grid services" style="margin-top:12px">
+        <article class="card">
+          <h3>Corporal</h3>
+          <ul class="muted">
+            <li>Drenaje postquirúrgico</li>
+            <li>Drenaje linfático</li>
+            <li>Masaje ayurveda</li>
+            <li>Masaje relajante (mujeres)</li>
+            <li>Masaje modeladora</li>
+            <li>Maderoterapia y radiofrecuencia</li>
+            <li>Tratamiento anticelulitis</li>
+            <li>Tratamiento reafirmante</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Facial</h3>
+          <ul class="muted">
+            <li>Reafirmante facial</li>
+            <li>Vitamina C facial</li>
+            <li>Renovación dérmica</li>
+            <li>Punta de diamante</li>
+            <li>Radiofrecuencia facial</li>
+            <li>Higiene facial profunda</li>
+            <li>Microneedling Dermapen</li>
+            <li>Maderoterapia facial</li>
+            <li>Derma Brows</li>
+            <li>Micropigmentación de cejas</li>
+            <li>Micropigmentación de labios</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Depilación con Cera & Hilo</h3>
+          <ul class="muted">
+            <li>Diseño y tinte de cejas (hilo)</li>
+            <li>Labio superior / Mentón (hilo)</li>
+            <li>Cara entera (hilo)</li>
+            <li>Medio pierna</li>
+            <li>Pierna completa</li>
+            <li>Zona bikini</li>
+            <li>Cuerpo completo</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="sobre" style="margin-top:28px">
+      <h2>Sobre el centro</h2>
+      <div class="card" style="display:flex;gap:18px;align-items:center;flex-wrap:wrap">
+        <img src="Imagen de WhatsApp 2025-09-03 a las 12.48.23_ef7d7942.jpg" alt="Interior del centro de estética" style="width:280px;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.08)">
+        <div style="flex:1">
+          <p><strong>Ubicación:</strong> Calle República Dominicana, 22. Las Palmas de Gran Canaria.</p>
+          <p><strong>Profesional:</strong> Neide Santos — Técnica Auxiliar de Medicina en Estética y Especialista en micropigmentación y diseño de cejas.</p>
+          <p class="muted">Horario: Lunes a Viernes 09:00–20:00 • Sábados 10:00–15:00 • Domingo con cita previa.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" style="margin-top:28px">
+      <h2>Contacto</h2>
+      <div class="card">
+        <div class="contact">
+          <div style="flex:1">
+            <p><strong>Teléfono / WhatsApp:</strong> <a href="https://wa.me/0034679199582" target="_blank">+34 679 199 582</a></p>
+            <p><strong>Email:</strong> <a href="mailto:neidesanto24@gmail.com">neidesanto24@gmail.com</a></p>
+            <p><strong>Dirección:</strong> Calle República Dominicana 22, Las Palmas de Gran Canaria</p>
+          </div>
+          <div style="min-width:220px">
+            <form action="mailto:neidesanto24@gmail.com" method="post" enctype="text/plain">
+              <div style="margin-bottom:8px">
+                <label>Tu nombre<br><input name="Nombre" required style="width:100%;padding:8px;border-radius:8px;border:1px solid #eee"></label>
+              </div>
+              <div style="margin-bottom:8px">
+                <label>Teléfono / Email<br><input name="Contacto" style="width:100%;padding:8px;border-radius:8px;border:1px solid #eee"></label>
+              </div>
+              <div style="margin-bottom:8px">
+                <label>Mensaje<br><textarea name="Mensaje" rows="3" style="width:100%;padding:8px;border-radius:8px;border:1px solid #eee"></textarea></label>
+              </div>
+              <div><button type="submit" class="btn btn-primary">Enviar</button></div>
+            </form>
+            <p class="muted" style="margin-top:8px">O reserva por WhatsApp para respuesta más rápida.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top:38px;">
+      <h2>Promociones Especiales Septiembre</h2>
+      <div class="promo-box">
+        <span class="promo-label">¡Sólo 5 bonos disponibles!</span>
+        <div class="promo-text">Maderoterapia y Masaje corporal reductor de medidas</div>
+        <span class="old-price">Antes €100,00</span>
+        <span class="promo-price">Ahora €69,90</span>
+        <div class="promo-detail">
+          5 sesiones de Maderoterapia + Masaje Corporal Reductor de Medidas.<br>
+          Paga 4 sesiones y recibe 1 gratis.<br>
+          <span class="promo-red">¡Con 10% de descuento al comprar el bono completo!</span>
+        </div>
+        <div class="promo-valid">Promoción válida hasta el 20 de septiembre.</div>
+      </div>
+      <div class="promo-box">
+        <span class="promo-special">2x1 · Si traes una amiga contigo</span>
+        <div class="promo-2x1">Promo 1: Depilación Hilo</div>
+        <div class="promo-detail">Cejas: 10,00€ &nbsp; | &nbsp; Labio superior: 4,00€ &nbsp; | &nbsp; Cera Mentón: 3,20€<br>
+          Ven con tu mejor amiga y solo una paga depilación con hilo.</div>
+        <div class="promo-valid">Válido hasta el 30 de septiembre.</div>
+      </div>
+      <div class="promo-box">
+        <span class="promo-special">2x1 · Si traes una amiga contigo</span>
+        <div class="promo-2x1">Promo 2: Depilación Cera</div>
+        <div class="promo-detail">Medio pierna: <span class="old-price">12,00€</span> <span class="promo-price">9,60€</span><br>
+          Cualquier zona del cuerpo: <span class="promo-red">-20% de Descuento</span></div>
+        <div class="promo-valid">Válido hasta el 30 de septiembre.</div>
+      </div>
+      <div class="promo-box">
+        <div class="promo-red" style="font-size: 1.13rem;">Además, llévate -40% en cualquier tratamiento facial <span style="color:gold;">✨</span></div>
+        <div class="promo-valid">Válido hasta el 30 de septiembre.</div>
+      </div>
+      <div class="center" style="margin-top:26px;">
+        <a class="whatsapp-link" href="https://wa.me/0034679199582" target="_blank">Agenda tu tratamiento por WhatsApp</a>
+      </div>
+    </section>
+
+    <footer class="container">
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap">
+        <div>© <strong>Neide Santos Beauty & Wellness</strong> • Centro de Estética</div>
+        <div class="muted">Protocolo de higiene y desinfección aplicado según normativa local</div>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
